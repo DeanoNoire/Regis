@@ -1,0 +1,178 @@
+@font-face{
+    font-family:'BlackOpsOne';
+    src: url('/static/fonts/BlackOpsOne-Regular.ttf');
+}
+
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-color:black;
+    margin:0px;
+    font-family: 'BlackOpsOne'
+}
+
+ #header{
+     width:100%;
+     height:5%;
+ }
+#wrapper{
+    width:100%;
+    height:95%;
+}
+
+h1{
+    text-align: center;
+}
+
+#svetlaBlok{
+    position:relative;
+    float:left;
+    width:20%;
+    margin-left: 5%;
+}
+
+.svetloButton {
+    position:relative;
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    /*background-color: #fff;*/
+    box-shadow: 0px 0px 0px 0px #0ff;
+    position: relative;
+    border: #fff 1px solid;
+    margin: 2%;
+    background-image: url("/static/img/off.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top:5px;
+}
+
+
+.sviti {
+    box-shadow: 0px 0px 8px 8px #0ff;
+    background-image: url("/static/img/on.png");
+}
+
+
+
+
+#ipcamBlok{
+    position:relative;
+    float:left;
+    width: 600px;
+    height: 400px;
+    margin:auto auto;
+    border: #0ff 1px dotted;
+    border-radius: 5%;
+    margin-left: 2%;
+    z-index:10;
+    background-color: black;
+ 
+}
+
+.fullscreen{
+    position:fixed !important;
+    overflow:hidden;
+    width:96% !important;
+    height:90% !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    border: #0ff 2px dotted;
+}
+
+#dvereBlok{
+    
+    height:auto;
+    float:left;
+    width:350px;
+    margin-left: 5%;    
+}
+
+#passphrase{
+    border:#fff 1px dotted;
+    height: 50px;
+    width: 312px;
+    margin-bottom:5px;
+    text-align: center;
+ font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.cerveny{
+    background-color: red;
+}
+
+.zeleny{
+    background-color: #0ff;
+}
+
+.dvereIco{
+    position:relative;
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 0px 0px #0ff;
+    position: relative;
+    border: #fff 1px solid;
+    margin: 2%;
+    background-image: url("/static/img/off.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top:5px;
+}
+
+.doorStatus{
+    position:absolute;
+    bottom:1%;
+    left:1%;
+    width:100%;
+    text-align: center;
+}
+
+#locker{
+    height:40%;
+    /*border: #0ff 2px dotted;*/
+    width:100%;
+
+}
+
+.lockerCell{
+    font-size: 44px;
+    margin-bottom:3px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    vertical-align: middle;
+    border: #0ff 1px solid;
+    display:inline-block;
+}
+
+#locker0{
+    margin-left:106px;
+}
+
+#pass{
+    width:348px;
+    text-align: justify;
+
+}
+
+#progressBar{
+    width:320px;
+    height:25px;
+}
+
+.hidden{
+    display:none;
+}
+
+.narrow{
+    letter-spacing: 3px !important;
+}

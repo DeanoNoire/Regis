@@ -1,0 +1,23 @@
+{
+  "name": "deanoregisnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.0-beta1",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^2.2.33",
+    "onoff": "^6.0.1",
+    "rpio": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node app.js",
+    "createDb": "node /static/js/createMongoDB.js"
+  },
+  "author": "DeanoNoire",
+  "license": "ISC"
+}
